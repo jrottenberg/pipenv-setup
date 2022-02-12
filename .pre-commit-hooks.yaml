@@ -1,7 +1,7 @@
 - id: pipenv-setup
   name: pipenv-setup
   description: "`pipenv-setup` is a command-line utility to sync pipfile/lockfile to setup.py "
-  entry: pipenv-setup sync --dev
+  entry: pipenv-setup sync
   args: ["--pipfile"]
   language: python
   types: [python]
