@@ -204,12 +204,12 @@ You can run pipenv-setup automatically on commit, with a git hook from [pre-comm
 ```
 
 
-Use an extra arg if you want to sync against the Pipfile (default to lockfile)
+Use an overwrite the arg if you want to sync against the Pipfile.lock (default to Pipfile)
 
 ```
     hooks:
     - id: pipenv-setup
-      args: ["--pipfile"]
+      args: []
 ```
 
 ## Contributing
