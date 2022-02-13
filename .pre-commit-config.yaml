@@ -1,6 +1,8 @@
 repos:
+  # TODO: correct the repo and rev
   - repo: https://github.com/bryant-finney/pipenv-setup.git
-    rev: b9dffb451a92f32a633ad2cd95b51859e7e188be
+    rev: 3451745992e8e60557578d0ade57e94c5d7586d1
     hooks:
       - id: pipenv-setup
         additional_dependencies: [".[black]"]
+        args: [--dev, --pipfile]
