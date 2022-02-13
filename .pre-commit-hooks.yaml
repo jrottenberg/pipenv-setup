@@ -4,6 +4,6 @@
   entry: pipenv-setup sync
   args: ["--pipfile"]
   language: python
-  types: [python]
+  types: [file, non-executable, text]
   files: Pipfile(\.lock)?|setup\.py
   pass_filenames: false
